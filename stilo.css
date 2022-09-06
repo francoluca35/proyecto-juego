@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(img/imagenes-espacio-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    
+    left: 1vw;
+    font-size: 4rem;
+    background: linear-gradient(to bottom right ,rgb(245, 3, 3), rgba(0, 0, 0, 0.685));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    top: 52vh;
+    left: 2vw;
+    font-size: 2rem;
+    font-weight: bolder;
+    background: linear-gradient(to bottom right, rgb(224, 37, 30), rgba(1, 0, 2, 0.719));
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(7, 2, 2);
+    border-radius: 10px;
+    border-color: rgb (0, 0, 0);
+    position: absolute;
+    top: 20vh;
+    left: 36.7vw;
+    overflow:hidden;
+    background-color: rgba(5, 1, 1, 0.151);
+}
+
+#caracter{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(150, 48, 175);
+    border: 2px solid rgb(59, 3, 3);
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 100000000;
+}
+
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+    background: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(255, 0, 0));
+    -webkit-background-clip: border-box;
+    color: transparent;
+}
+
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
